@@ -1,7 +1,4 @@
-const {
-    src,
-    dest
-} = require('gulp');
+const {src, dest} = require('gulp');
 const changed = require('gulp-changed');
 const imagemin = require('gulp-imagemin');
 const recompress = require('imagemin-jpeg-recompress');

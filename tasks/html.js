@@ -1,7 +1,4 @@
-const {
-    src,
-    dest
-} = require('gulp');
+const {src, dest} = require('gulp');
 const include = require('gulp-file-include');
 const bs = require('browser-sync');
 

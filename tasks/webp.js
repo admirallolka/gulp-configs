@@ -1,6 +1,4 @@
-const {
-    src
-} = require('gulp');
+const {src} = require('gulp');
 const webpConv = require('gulp-webp');
 const changed = require('gulp-changed');
 const multiDest = require('gulp-multi-dest');

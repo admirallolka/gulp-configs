@@ -1,7 +1,4 @@
-const {
-    src,
-    dest
-} = require('gulp');
+const {src, dest} = require('gulp');
 const sass = require('gulp-sass');
 const bulk = require('gulp-sass-bulk-importer');
 const prefixer = require('gulp-autoprefixer');

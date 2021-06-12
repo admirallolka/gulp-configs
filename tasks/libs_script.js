@@ -1,7 +1,4 @@
-const {
-    src,
-    dest,
-} = require('gulp');
+const {src, dest} = require('gulp');
 const map = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify-es').default;
 const importFile = require("gulp-file-include");
